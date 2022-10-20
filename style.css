@@ -222,6 +222,39 @@ footer p {
         display: inline-block;
         padding: 10px;
     }
+    @media (max-width:568px){
     
+    .btn{
+        margin-top: 1.3em;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .computer{
+        display: block;
+        text-align: center;
+    }
+    .supercharge-items{
+        display: block;
+    }
+    .companies .container{
+        display: grid;
+        grid-template-columns:1fr;
+        justify-items: center;
+    }
+    footer .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    footer .container li{
+        display: block;
+        padding: 5px 0;
+    }
+    footer .social_link a{
+        display: inline-block;
+        padding: 10px;
+    }
 }
 
